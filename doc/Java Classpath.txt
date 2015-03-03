@@ -1,0 +1,13 @@
+java com.aje.download.client.FileClient 0030 0096 1002 FXC 16666 0 0 D:\mifact.pdf
+java -cp WSAjeCFDIClient-1.0.jar com.aje.download.client.FileClient 0030 0096 1002 FXC 16666 0 0 D:\mifact.pdf
+
+AcroRd32.exe D:\mifact.pdf
+
+'java -cp WSAjeCFDIClient-1.0.jar com.aje.download.client.FileClient '&TRIM (M)
+
+'AcroRd32.exe '&TRIM (I)
+
+-- Para los terminal server
+agregar en classpath = D:\AppJava\WSAjeCFDI\WSAjeCFDIClient\bin
+
+

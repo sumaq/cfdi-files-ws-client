@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-service>
+<name>Web Services CFDI Productivo</name>
+<urlServiceGetPDF>http://localhost:8080/cfdi-files-ws/download?wsdl</urlServiceGetPDF>
+<urlServiceCreateFileText>http://localhost:8080/cfdi-files-ws/create?wsdl</urlServiceCreateFileText>
+<user>your.ws.user</user>
+<password>your.ws.pass</password>
+</web-service>
